@@ -126,3 +126,13 @@
     display: flex;
     align-items: center;
 }
+
+#notes {
+    text-align: center;
+    padding-top: 50px;
+}
+#para {
+    color: #627382;
+    text-align: center;
+    padding-top: 50px;
+}
