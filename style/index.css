@@ -47,15 +47,82 @@
     font-weight: 600px;
     color: #FFFFFF;
     margin: 24px 120px 24px 206px;
+    cursor: pointer;
     
 }
 
 .banner {
     background-image: url(../image/logo/hero-bg.png);
     height: 674px; 
-    width: 100%; 
+    width: 1600px; 
     vertical-align: middle;
 }
 .btnw{
-    
+    border: none;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    font-size: medium;
+    height: 35px;
+    width: 229px;
+    color:#469165;
+    margin: 115px 685px 16px 685px ;
+    cursor: pointer;
+
+}
+
+.banner .heading {
+    /* margin: 16px 295px; */
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+    height:168px;
+    width: 770px;
+    font-size: 2em;
+}
+.banner  .str{
+    color: #FFFFFF;
+}
+.banner .heading .not{
+    color: #30B868;
+}
+
+.banner .para {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2px;
+    gap: initial;
+    cursor: pointer;
+}
+
+#btnq{
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #30B868;
+    height: 41px;
+    width: 250px;
+     margin: 32px 16px 179px 590px;  
+    font-size: medium;
+    cursor: pointer;
+  
+   
+
+}
+
+#btne {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin: 32px 567px 179px 16px ;
+    width: 150px;
+    height: 41px;
+    background-color: transparent;
+    max-width: max-content;
+    cursor: pointer;
+
+}
+.button{
+    display: flex;
+    align-items: center;
 }
